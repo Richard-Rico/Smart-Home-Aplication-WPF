@@ -1,0 +1,17 @@
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\UnitTestSHome.Tests.dll
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\UnitTestSHome.Tests.pdb
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\SmartHomeApp.exe
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\SmartHomeApp.pdb
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\SmartHomeApp.exe.config
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\obj\Debug\UnitTestSHome.Tests.csproj.AssemblyReference.cache
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\obj\Debug\UnitTestSHome.Tests.csproj.CoreCompileInputs.cache
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\obj\Debug\UnitTestSHome.Tests.csproj.CopyComplete
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\obj\Debug\UnitTestSHome.Tests.dll
+C:\Users\richa\source\repos\SmartHomeApp\UnitTestSHome.Tests\obj\Debug\UnitTestSHome.Tests.pdb

@@ -1,0 +1,109 @@
+﻿<Window x:Class="SmartHomeApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SmartHomeApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="WhiteSmoke">
+        <Canvas HorizontalAlignment="Left" Height="155" VerticalAlignment="Top" Width="309" Margin="49,70,0,0" OpacityMask="#FF616161" Background="White"/>
+        <Image x:Name="imgValo" HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Width="46" Source="bulb.png" Margin="74,83,0,0"/>
+        <TextBox x:Name="txValo" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0%" VerticalAlignment="Top" Width="46" Margin="76,146,0,0" TextAlignment="Center" BorderBrush="{x:Null}" FontSize="14" FontFamily="Microsoft YaHei UI"/>
+        <Button x:Name="btOn" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="247,83,0,0" Click="btOn_Click" Height="20" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="power button.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btOff" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="274,83,0,0" Click="btOff_Click" Height="20" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="power button.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lbOn" Content="ON" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,97,0,0" FontSize="10" FontFamily="Microsoft YaHei UI"/>
+        <Label x:Name="lbOff" Content="OFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="269,97,0,0" FontSize="10" FontFamily="Microsoft YaHei UI"/>
+        <Label x:Name="lbOlohuone" Content="Olohuone" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,83,0,0" FontFamily="Microsoft YaHei UI"/>
+        <Button x:Name="btKirkkaus1" Content="25%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Margin="204,122,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" Click="btKirkkaus1_Click"/>
+        <Button x:Name="btKirkkaus2" Content="50%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Margin="236,122,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" Click="btKirkkaus2_Click"/>
+        <Button x:Name="btKirkkaus3" Content="75%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Margin="268,122,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" Click="btKirkkaus3_Click"/>
+        <Button x:Name="btKirkkaus4" Content="100%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="35" Margin="300,122,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" RenderTransformOrigin="0.26,0.544" Click="btKirkkaus4_Click"/>
+        <Button x:Name="btnUp" Content="▲" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="122,146,0,0" Click="btnUp_Click" Height="20" BorderBrush="{x:Null}" FontWeight="Bold" Background="{x:Null}"/>
+        <Button x:Name="btnDown" Content="▼" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="142,146,0,0" Click="btnDown_Click" Height="20" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button x:Name="btnIndicator" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="22" Margin="260,151,0,0" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Image x:Name="imgKirkkaus" HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="18" Source="Brillo 2.png" Margin="263,151,0,0"/>
+        <Image x:Name="ImgSmartHome" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="57" Source="smartHome.png" Margin="54,4,0,0"/>
+        <Label x:Name="lbSmartHomeApp" Content="Smart Home App by RRⒸ" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="111,28,0,0" FontFamily="Microsoft YaHei UI Light" FontSize="16"/>
+        <Canvas HorizontalAlignment="Left" Height="155" VerticalAlignment="Top" Width="309" Margin="381,70,0,0" OpacityMask="#FF616161" Background="White"/>
+        <Image x:Name="imgValo2" HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Width="46" Source="bulb.png" Margin="406,83,0,0"/>
+        <TextBox x:Name="txValo2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0%" VerticalAlignment="Top" Width="46" Margin="408,146,0,0" TextAlignment="Center" BorderBrush="{x:Null}" FontSize="14" FontFamily="Microsoft YaHei UI"/>
+        <Button x:Name="btOn2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="579,83,0,0" Click="btOn2_Click" Height="20" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="power button.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btOff2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="606,83,0,0" Click="btOff2_Click" Height="20" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="power button.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lbOn2" Content="ON" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="576,97,0,0" FontSize="10" FontFamily="Microsoft YaHei UI"/>
+        <Label x:Name="lbOff2" Content="OFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="601,97,0,0" FontSize="10" FontFamily="Microsoft YaHei UI"/>
+        <Label x:Name="lbKeittio" Content="Keittiö" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="446,83,0,0" FontFamily="Microsoft YaHei UI"/>
+        <Button x:Name="btKirkkausA" Content="25%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Margin="536,122,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" Click="btKirkkausA_Click"/>
+        <Button x:Name="btKirkkausB" Content="50%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Margin="568,122,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" Click="btKirkkausB_Click"/>
+        <Button x:Name="btKirkkausC" Content="75%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Margin="600,122,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" Click="btKirkkausC_Click"/>
+        <Button x:Name="btKirkkausD" Content="100%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="35" Margin="632,122,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" RenderTransformOrigin="0.26,0.544" Click="btKirkkausD_Click"/>
+        <Button x:Name="btnUp2" Content="▲" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="454,146,0,0" Click="btnUp2_Click" Height="20" BorderBrush="{x:Null}" FontWeight="Bold" Background="{x:Null}"/>
+        <Button x:Name="btnDown2" Content="▼" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="474,146,0,0" Click="btnDown2_Click" Height="20" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button x:Name="btnIndicator2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="22" Margin="592,151,0,0" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Image x:Name="imgKirkkaus2" HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="18" Source="Brillo 2.png" Margin="595,151,0,0"/>
+        <Canvas HorizontalAlignment="Left" Height="111" VerticalAlignment="Top" Width="309" Margin="51,242,0,0" OpacityMask="#FF616161" Background="White"/>
+        <Image x:Name="imgIlmastointi" HorizontalAlignment="Left" Height="63" VerticalAlignment="Top" Width="54" Source="air conditioning indoor.png" Margin="71,255,0,0"/>
+        <TextBox x:Name="txIlmastointi" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="ºC" VerticalAlignment="Top" Width="46" Margin="79,320,0,0" TextAlignment="Center" BorderBrush="{x:Null}" FontSize="14" FontFamily="Microsoft YaHei UI"/>
+        <Button x:Name="btOnTemp" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="255,255,0,0" Click="btOnTemp_Click" Height="20" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="power button.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btOffTemp" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="282,255,0,0" Click="btOffTemp_Click" Height="20" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="power button.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lbOn3" Content="ON" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="252,269,0,0" FontSize="10" FontFamily="Microsoft YaHei UI"/>
+        <Label x:Name="lbOff3" Content="OFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="277,269,0,0" FontSize="10" FontFamily="Microsoft YaHei UI"/>
+        <Label x:Name="lbIlmastointi" Content="Ilmastointi" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="126,257,0,0" FontFamily="Microsoft YaHei UI"/>
+        <Button x:Name="btTemp1" Content="18 ºC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="217,296,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" Click="btTemp1_Click"/>
+        <Button x:Name="btTemp2" Content="22 ºC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="257,296,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" Click="btTemp2_Click"/>
+        <Button x:Name="btTemp3" Content="28 ºC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="298,296,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" RenderTransformOrigin="0.26,0.544" Click="btTemp3_Click"/>
+        <Button x:Name="btnHeatUp" Content="▲" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="125,320,0,0" Click="btnHeatUp_Click" Height="20" BorderBrush="{x:Null}" FontWeight="Bold" Background="{x:Null}"/>
+        <Button x:Name="btnHeatDown" Content="▼" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="145,320,0,0" Height="20" BorderBrush="{x:Null}" Background="{x:Null}" Click="btnHeatDown_Click"/>
+        <Button x:Name="btnIndicatorTemp" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="22" Margin="267,325,0,0" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Image x:Name="imgIlmastonti" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="20" Source="air conditioning outdoor.png" Margin="268,325,0,0"/>
+        <Canvas HorizontalAlignment="Left" Height="111" VerticalAlignment="Top" Width="309" Margin="382,242,0,0" OpacityMask="#FF616161" Background="White"/>
+        <Image x:Name="imgSauna" HorizontalAlignment="Left" Height="63" VerticalAlignment="Top" Width="54" Source="temperature.png" Margin="402,255,0,0"/>
+        <Button x:Name="btOnSauna" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="586,255,0,0" Height="20" BorderBrush="{x:Null}" Click="btOnSauna_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="power button.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btOffSauna" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="20" Margin="613,255,0,0" Height="20" BorderBrush="{x:Null}" Click="btOffSauna_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="power button.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lbOn4" Content="ON" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="583,269,0,0" FontSize="10" FontFamily="Microsoft YaHei UI"/>
+        <Label x:Name="lbOff4" Content="OFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="608,269,0,0" FontSize="10" FontFamily="Microsoft YaHei UI"/>
+        <Label x:Name="lbSaunaName" Content="Sauna" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="457,257,0,0" FontFamily="Microsoft YaHei UI"/>
+        <Button x:Name="btTempSauna1" Content="60 ºC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="548,296,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" Click="btTempSauna1_Click"/>
+        <Button x:Name="btTempSauna2" Content="80 ºC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="588,296,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" Click="btTempSauna2_Click"/>
+        <Button x:Name="btTempSauna3" Content="100 ºC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="47" Margin="629,296,0,0" FontFamily="Microsoft YaHei UI" BorderBrush="{x:Null}" RenderTransformOrigin="0.26,0.544" Click="btTempSauna3_Click"/>
+        <Button x:Name="btnIndicatorSauna" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="22" Margin="598,325,0,0" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Image x:Name="imgSaunaTemp" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="20" Source="heater.png" Margin="599,325,0,0"/>
+        <TextBox x:Name="txSaunailmoitus" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Margin="461,320,0,0" TextAlignment="Center" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei UI Light" FontSize="10"/>
+        <Label x:Name="lbSauna" Content="ºC" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="417,315,0,0" FontFamily="Microsoft YaHei UI" FontSize="14"/>
+        <Slider x:Name="SliderValo1" HorizontalAlignment="Left" Margin="68,179,0,0" VerticalAlignment="Top" Width="268" Maximum="100" TickFrequency="5" TickPlacement="Both" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" Height="36"/>
+        <Slider x:Name="SliderValo2" HorizontalAlignment="Left" Margin="399,179,0,0" VerticalAlignment="Top" Width="268" Maximum="100" TickFrequency="5" TickPlacement="Both" IsSnapToTickEnabled="True" ValueChanged="Slider2_ValueChanged" Height="36"/>
+
+    </Grid>
+</Window>
