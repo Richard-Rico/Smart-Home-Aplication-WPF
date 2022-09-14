@@ -17,4 +17,4 @@ This repo contains a simple UI smart Home application, this .NET framework was c
 
 ## Installation
 
-This project does not need installation.
+this project needs to be opened with [@Microsoft Visual Studio.](https://visualstudio.microsoft.com/)
