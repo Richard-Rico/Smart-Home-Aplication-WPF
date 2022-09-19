@@ -15,6 +15,6 @@ This repo contains a simple UI smart Home application, this .NET framework was c
 🔥 Passionate about Software Development 🔥 Interested in Frontend, Backend, Full-Stack ⚡#javascript #nodejs #html #css #phyton #C# #sql⚡
 
 
-## Installation
+## How to see this project? 🔎
 
 this project needs to be opened with [@Microsoft Visual Studio.](https://visualstudio.microsoft.com/)
