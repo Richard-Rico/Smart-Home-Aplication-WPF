@@ -8,7 +8,9 @@ This repo contains a simple UI smart Home application, this .NET framework was c
 
 ## Author ©
 
-- [@Richard Rico](https://github.com/Richard-Rico)
+- [Richard Rico](https://github.com/Richard-Rico)
+- [Contact me](info@richard-rico.com)
+- [Twiter](https://twitter.com/rico_code)
 
 
 ## About Me 🚀
